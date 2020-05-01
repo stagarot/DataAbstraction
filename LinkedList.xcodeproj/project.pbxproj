@@ -23,8 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7A86A86C245A1EEA00F86400 /* AVL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVL.h; sourceTree = "<group>"; };
 		7A9FDC27242BA83C0004B323 /* LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9FDC2A242BA83C0004B323 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7A9FDC32242BAA4E0004B323 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		7A9FDC35243D021B0004B323 /* HashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
+		7A9FDC3824508B1B0004B323 /* BTS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTS.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				7A9FDC2A242BA83C0004B323 /* main.cpp */,
+				7A9FDC32242BAA4E0004B323 /* LinkedList.h */,
+				7A9FDC3824508B1B0004B323 /* BTS.h */,
+				7A86A86C245A1EEA00F86400 /* AVL.h */,
+				7A9FDC35243D021B0004B323 /* HashTable.h */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -88,7 +96,7 @@
 		7A9FDC1F242BA83C0004B323 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = DataAbs;
 				TargetAttributes = {
 					7A9FDC26242BA83C0004B323 = {
@@ -238,6 +246,7 @@
 		7A9FDC2F242BA83C0004B323 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -246,6 +255,7 @@
 		7A9FDC30242BA83C0004B323 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

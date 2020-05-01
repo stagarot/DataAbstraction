@@ -1,15 +1,14 @@
 //
 //  main.cpp
-//  LinkedList
 //
 //  Created by Sara Tagarot on 3/25/20.
 //  Copyright © 2020 DataAbs. All rights reserved.
 //
 
 #include <iostream>
+#include "BTS.h"
 
-int main(int argc, const char * argv[]) {
+int main() {
     // insert code here...
-    std::cout << "Hello, World!\n";
     return 0;
 }
